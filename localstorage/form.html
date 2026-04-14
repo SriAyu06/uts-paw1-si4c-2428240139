@@ -7,9 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J
 </head>
 <body>
-    <div class="ciontainer">
-        <h2 class="text-center bg-primary text-white p-3 rounded mt-3">
-        penyimpanan barang</h2>
+    <div class="ciontainer" class="card" style="width: 18rem;">
+         <div class="card-body">
+            <h5 class="card-title">penyimpanan barang</h5>
+            <h2 class="text-center bg-primary text-white p-3 rounded mt-3">
+            <h5 class="card-title">penyimpanan barang</h5>
         barang
         <input type="text" id="barang" class="form-control border-primary mb-3"><br>
         jumlah
@@ -17,7 +19,8 @@
         keterangan
         <input type="text" id="keterangan" class="form-control border-primary mb-3"><br>
         <button class="btn btn-primary" onclick="simpan()">Simpan</button>
-
+         </div>
+        
         <div id="list-barang" class="row"></div>
     </div>
     <script src="scriptis.js"></script>
